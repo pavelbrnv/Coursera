@@ -1,0 +1,5 @@
+inFile = open('input.txt', 'r', encoding='utf8')
+words = inFile.read().split()
+inFile.close()
+words_set = set(words)
+print(len(words_set))
